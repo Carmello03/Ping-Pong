@@ -1,0 +1,75 @@
+/* Main container styling */
+.root {
+    -fx-font-family: 'Cinzel', serif; /* This font has a medieval look */
+    -fx-background-image: url('mainMenu3.gif');
+    -fx-background-size: cover;
+    -fx-background-position: center center;
+    -fx-background-repeat: no-repeat;
+    -fx-alignment: center;
+    -fx-padding: 20;
+}
+
+/* Styling for the title */
+.title-label {
+    -fx-font-size: 56px; /* Large and imposing font size */
+    -fx-text-fill: #F4C430; /* Saffron gold color for a fiery look */
+    -fx-effect: dropshadow(three-pass-box, rgba(255, 69, 0, 0.8), 15, 0.5, 0, 0); /* Intense fiery glow on hover */
+    -fx-font-family: 'Cinzel', serif; /* Consistent font for the medieval theme */
+    -fx-margin: 50 0 20 0; /* More vertical padding for a grander presence */
+}
+
+/* Styling for text fields */
+.text-field {
+    -fx-pref-width: 200px;
+    -fx-font-size: 16px;
+    -fx-background-color: rgba(0, 0, 0, 0.6); /* Darker, more opaque background for contrast */
+    -fx-text-fill: #F4C430; /* Text color to stand out */
+    -fx-border-color: #F4C430; /* Border color to match text */
+    -fx-border-width: 1px; /* Subtle border for definition */
+}
+
+/* Styling for sliders */
+.slider {
+    -fx-pref-width: 300px;
+    -fx-background-color: rgba(0, 0, 0, 0.6); /* Slider background */
+}
+
+.slider .track {
+    -fx-stroke: #F4C430; /* Fiery track color */
+    -fx-stroke-width: 3px; /* Bold track */
+}
+
+.slider .thumb {
+    -fx-fill: #F4C430; /* Fiery thumb color */
+}
+
+/* Styling for buttons */
+.button {
+    -fx-background-color: rgba(0, 0, 0, 0.6);
+    -fx-text-fill: #F4C430; /* Text color that pops */
+    -fx-font-size: 16px;
+    -fx-padding: 10px 20px;
+    -fx-border-color: #F4C430; /* Border color for a fiery outline */
+    -fx-border-width: 2px;
+    -fx-effect: dropshadow(three-pass-box, rgba(255, 140, 0, 0.8), 10, 0, 0, 10); /* Fiery glow effect */
+}
+
+/* Hover effect for buttons */
+.button:hover {
+    -fx-background-color: rgba(68, 34, 34, 0.8); /* Dark red for a burning ember effect */
+    -fx-text-fill: #FFF5EE; /* Lighter text on hover */
+    -fx-effect: dropshadow(three-pass-box, rgba(255, 69, 0, 0.8), 15, 0.5, 0, 0); /* Intense fiery glow on hover */
+}
+
+.form-container .label {
+    -fx-font-size: 18px; /* Larger font size for better readability */
+    -fx-text-fill: #F4C430; /* Gold color for a fiery, yet readable look */
+    -fx-font-family: 'Cinzel', serif; /* Consistent medieval font */
+}
+
+
+.form-container {
+    -fx-spacing: 10px;
+    -fx-alignment: center;
+    -fx-padding: 10 0;
+}
